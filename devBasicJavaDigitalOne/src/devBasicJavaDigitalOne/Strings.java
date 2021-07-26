@@ -3,6 +3,7 @@ package devBasicJavaDigitalOne;
 public class Strings {
 
 	public static void main(String[] args) {
+		
 		var nome = "joaodascoves";  /*Modo indeferido, compilador faz a inicialização da tipagem 
 		 denominado autoboxing */
 		var sobreNome = "gomes"; 
@@ -25,6 +26,9 @@ public class Strings {
 		System.out.println("Equals? "+ string.equals(" Minha Frase "));
 		System.out.println("EqualsIgnoreCase?" + string.equalsIgnoreCase(" Minha frase "));
 		System.out.println("Substring(1,6)="+ string.substring(1, 6));
+		
+		
+		
 		
 		
 		
