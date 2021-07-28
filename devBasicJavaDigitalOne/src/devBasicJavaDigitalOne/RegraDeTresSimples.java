@@ -23,10 +23,9 @@ public class RegraDeTresSimples {
 		velocidade2 = input.nextInt();
 		tempoDaViagem = (velocidade1*6)/velocidade2;
 		
-		System.out.println("Tempo total da viagem "+tempoDaViagem + " horas ");
+		System.out.println("Tempo total da viagem: "+tempoDaViagem + " horas ");
 		input.close();
-	
+		
 	}
-
 	
 }
