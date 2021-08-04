@@ -1,5 +1,9 @@
 package devBasicJavaDigitalOne.calendar;
 
+import java.util.Stack;
+
+import devBasicJavaDigitalOne.classes.Orcamento;
+
 public class ExercicioFinal {
 
 	public static void main(String[] args) {
@@ -13,7 +17,14 @@ public class ExercicioFinal {
 		 * quantos dias ele tem para pagar
 		 * */
 		
-		
+		try {
+			
+			Orcamento orc = new Orcamento();
+			System.out.println(orc.getValorTotal());
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 		
 		
 

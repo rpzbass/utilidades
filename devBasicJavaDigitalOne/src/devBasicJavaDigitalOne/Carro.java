@@ -3,6 +3,7 @@ package devBasicJavaDigitalOne;
 public class Carro {
 
 	private Integer quantidade;
+	
 
 	{
 		this.quantidade = 0;
