@@ -21,8 +21,15 @@ public class Iteracoes {
 		Stream.of(nomes).forEach(n -> System.out.println(n));
 		System.out.println(nomesDaStream);
 		*/
-		
 		imprimirTodosOsNomes(nomes); 
+		
+		/* Converter array em lista, ler apartir do nomes proposto, e imprimir esses nomes */
+		Arrays.asList(nomes)
+			.stream()
+			.filter(nome -> nome.startsWith("Oliveira"))
+			.forEach(System.out::println);
+		
+		
 		
 		
 	
