@@ -13,8 +13,13 @@ public class Tweet {
 	
 		System.out.println(T.length() > 140 ? "MUTE" : "TWEET");
 		
+		int a = 20;
 		
+		if (a % 2 == 0) {
+			
+		}
 		
+		System.out.println("");
 		 input.close();
 	}
 
